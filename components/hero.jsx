@@ -39,15 +39,15 @@ const HeroSection = () => {
             </p>
             <div className='flex justify-center space-x-4'>
                 <Link href={'/dashboard'}>
-                    <Button size={'lg'} className={'px-8'}> Get Started</Button>
+                    <Button size={'lg'} className={'px-8 cursor-pointer'}> Get Started</Button>
                 </Link>
                 <Link href={'/dashboard'}>
-                    <Button variant={'outline'} size={'lg'} className={'px-8'}> Watch Demo</Button>
+                    <Button variant={'outline'} size={'lg'} className={'px-8 cursor-pointer'}> Watch Demo</Button>
                 </Link>
             </div>
             <div className='hero-image-wrapper'>
                 <div ref={imageRef} className='hero-image'>
-                    <Image src={'/banner.jpg'} width={1280} height={720} alt='dashboard preview' priority className='rounded-lg shadow-2xl border mx-auto'/>
+                    <Image src={'/banner.png'} width={1280} height={720} alt='dashboard preview' priority className='rounded-lg shadow-2xl border mx-auto'/>
                 </div>
             </div>
         </div>
